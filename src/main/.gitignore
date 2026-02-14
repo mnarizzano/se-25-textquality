@@ -1,0 +1,50 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pycache/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# ===========================
+# Virtual environment
+# ===========================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ===========================
+# PyCharm
+# ===========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ===========================
+# OS files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Logs and temporary files
+# ===========================
+*.log
+*.tmp
+*.swp
+
