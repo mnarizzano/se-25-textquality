@@ -1,3 +1,5 @@
+import os
+
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPixmap
 
@@ -13,12 +15,12 @@ class MainPanel(QWidget):
         self.main_layout = QVBoxLayout()
         self.setLayout(self.main_layout)
 
-        title_label = QLabel(file.doc.core_properties.title)
+        title_label = QLabel(os.path.splitext(os.path.basename(file.file_path))[0])
         title_label.setAlignment(Qt.AlignCenter)
         title_label.setStyleSheet("""
-            font-size: 22px;
-            font-weight: bold;
-            margin: 10px;
+            font-size: 15px;
+            font-weight: 600;
+            padding: 10px;
         """)
 
         self.main_layout.addWidget(title_label)
