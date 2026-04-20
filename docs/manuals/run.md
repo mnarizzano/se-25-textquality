@@ -1,4 +1,11 @@
-**TODO : Please modify this file according to the following**
+# How to Run the program
 
-Fill this document with the complete instructions (for each architecture required) necessary to run the software.
-Please also provide working examples.
+Open a terminal and change directory to the installation path. Then run:
+
+`cd src/main`
+
+`source venv/bin/activate`
+
+and finally
+
+`python3 main.py`
